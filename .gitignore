@@ -1,0 +1,64 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Rider / VS Code / VS settings
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Publish output
+publish/
+out/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuget.props
+*.nuget.targets
+packages/
+*.dll
+*.exe
+
+# Resharper / tooling
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# Backup / temp
+*.swp
+*.bak
+*.tmp
+*.tmp_proj
+*.log
+*.DS_Store
+Thumbs.db
+
+# OS junk
+ehthumbs.db
+desktop.ini
+
+# AWS CodeBuild/Elastic Beanstalk temp files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
