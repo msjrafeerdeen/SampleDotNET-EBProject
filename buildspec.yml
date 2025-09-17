@@ -1,0 +1,26 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 8.0
+  pre_build:
+    commands:
+      - echo "Restoring dependencies..."
+      - dotnet restore
+  build:
+    commands:
+      - echo "Building..."
+      - dotnet build --configuration Release --no-restore
+      - echo "Running tests..."
+      - dotnet test --no-build --verbosity normal
+      - echo "Publishing..."
+      - dotnet publish SampleEbApp/SampleEbApp.csproj -c Release -o ./publish
+  post_build:
+    commands:
+      - echo "Build & publish completed successfully."
+
+artifacts:
+  base-directory: publish
+  files:
+    - '**/*'

@@ -9,7 +9,7 @@ namespace SampleEbApp.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new { message = "Hello from Elastic Beanstalk!" });
+            return Ok(new { message = "Hello again from Elastic Beanstalk!" });
         }
     }
 }
