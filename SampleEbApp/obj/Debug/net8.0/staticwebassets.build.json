@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PEz1NHNPwH9VfDlt94XiPtI27KkIYeEd0M8I0n7jDpU=",
+  "Source": "SampleEbApp",
+  "BasePath": "_content/SampleEbApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
