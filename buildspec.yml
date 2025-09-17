@@ -13,7 +13,7 @@ phases:
       - echo "Building..."
       - dotnet build --configuration Release --no-restore
       - echo "Running tests..."
-      - dotnet test --verbosity normal
+      - dotnet test SampleEbApp.Tests/SampleEbApp.Tests.csproj --verbosity normal
       - echo "Publishing..."
       - dotnet publish SampleEbApp/SampleEbApp.csproj -c Release -o ./publish
   post_build:
