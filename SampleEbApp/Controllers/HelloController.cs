@@ -9,7 +9,7 @@ namespace SampleEbApp.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new { message = "Hello from EC2!" });
+            return Ok(new { message = "Hello from Localhost!" });
         }
     }
 }
